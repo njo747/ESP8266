@@ -1,6 +1,6 @@
-sw = { MID = 79, ON = 89, OFF = 69 }
-servo = require("servo") servo.init(3)
-srv:listen(80,function(conn) 
+sw = { MID = 77, ON = 85, OFF = 68 }
+servo = require("servo") servo.init(4)
+stcp:listen(80,function(conn) 
  conn:on("receive", function(client,request)
   local buf = "<html><body><form>Light: <select name=\"p\" onchange=\"form.submit()\">"
   local _,_,method,path = string.find(request, "([A-Z]+) (.+) HTTP")
