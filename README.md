@@ -1,2 +1,2 @@
 # ESP8266
-Boards and other NodeMCU stuff
+Boards and other NodeMCU stuff :)
